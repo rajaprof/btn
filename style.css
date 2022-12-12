@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+
+.container {
+    margin: auto;
+}
+
+button {
+    padding: 10px 50px;
+    margin: 20px;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    transition: 0.5s;
+}
+
+.btn-1:hover {
+    box-shadow: inset -100px 0px 0px 0px blue, inset 100px 0px 0px 0px blue;
+}
+
+.btn-2:hover {
+    background-color: rgb(38, 255, 0);
+    box-shadow: 0px 0px 5px rgb(0, 255, 0), 0px 0px 25px rgb(89, 255, 0), 0px 0px 50px rgb(38, 255, 0);
+}
+
+.btn-3:hover {
+    box-shadow: 10px 10px 0px yellow;
+}
+
+.btn-4:hover {
+    box-shadow: inset 4px 4px 4px 4px red, inset -4px -4px -4px -4px red;
+    background-color: black;
+    color: red;
+}
